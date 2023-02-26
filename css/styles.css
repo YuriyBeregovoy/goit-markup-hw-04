@@ -7,6 +7,7 @@
   --pressed-state-color: #404bbf;
   --light-mode-color: #f4f4fd;
   --accent-botton-color: #e7e9fc;
+  --bg-gradient-color: rgba(46, 47, 66, 0.7);
 }
 .container {
   width: 1158px;
@@ -146,11 +147,26 @@ img {
   background-color: var(--title-section-color);
   text-align: center;
   padding: 188px 0;
+
+  background-image: linear-gradient(
+      to bottom,
+      var(--bg-gradient-color),
+      var(--bg-gradient-color)
+    ),
+    url(../images/images-main/people-office\ 1-min.jpg);
+  max-width: 1440px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
 }
 .hero-title {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+
   margin-bottom: 48px;
 
   font-size: 56px;
@@ -214,6 +230,9 @@ img {
 /*-------------Section our team -----------------*/
 .section-team {
   background-color: var(--light-mode-color);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team .cards {
   width: calc((100% - 24px * 3) / 4);
