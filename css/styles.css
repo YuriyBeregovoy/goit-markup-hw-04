@@ -207,6 +207,20 @@ img {
 .string .item {
   width: calc((100% - 24px * 3) / 4);
 }
+.icon {
+  width: 64px;
+  height: 64px;
+}
+.advantages-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-mode-color);
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 /*-------------Section activities----Section our team--------------- */
 .section-title {
   font-size: 36px;
