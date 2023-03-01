@@ -309,9 +309,10 @@ img {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .customers-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -319,6 +320,20 @@ img {
   height: 88px;
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--pressed-state-color);
+}
+
+.customers-link-item {
+  width: 104px;
+  height: 56px;
+  fill: var(--light-slate-color);
+}
+.customers-link:hover .customers-link-item,
+.customers-link:focus .customers-link-item {
+  fill: var(--pressed-state-color);
 }
 
 /*---------------Saction Portfolio ---------------- */
