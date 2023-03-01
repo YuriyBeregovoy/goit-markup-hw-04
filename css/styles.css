@@ -266,6 +266,38 @@ img {
 .card-description {
   padding: 32px 16px;
 }
+.card-description .text {
+  margin-bottom: 8px;
+}
+.social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.network-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  border-color: transparent;
+}
+.network-link:hover,
+.network-link:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.network-icon {
+  width: 16px;
+  height: 16px;
+}
+.icon-item {
+  background-color: var(--light-mode-color);
+}
 
 /*---------------Saction Portfolio ---------------- */
 .button-filtr .filtr {
